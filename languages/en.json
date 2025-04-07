@@ -1,0 +1,8 @@
+{
+  "welcome": "Welcome to the server! React with 🇬🇧 for English or 🇨🇴 for Spanish. Then enter the following command !guide",
+  "how_to_use": "Here's how to use Discord: ...",
+  "guia_comandos": "These are the available commands: `!register`, `!channels`, `!voice`, etc.",
+  "registrarse": "To register, go to https://discord.com/register and follow the steps.",
+  "canales": "Channels are spaces where you can talk via text or voice...",
+  "nuevo_comando": "This is the new command in English."
+}

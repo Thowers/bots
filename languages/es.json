@@ -1,0 +1,8 @@
+{
+  "welcome": "¡Bienvenido al servidor! Reacciona con 🇬🇧 para inglés o 🇨🇴 para español. Luego ingresa el siguiente comando !guide",
+  "how_to_use": "Aquí está cómo usar Discord: ...",
+  "guia_comandos": "Estos son los comandos disponibles: `!registrarse`, `!canales`, `!voz`, etc.",
+  "registrarse": "Para registrarte, ve a https://discord.com/register y sigue los pasos.",
+  "canales": "Los canales son espacios donde puedes hablar por texto o voz...",
+  "nuevo_comando": "Este es el nuevo comando en español."
+}
