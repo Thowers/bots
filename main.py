@@ -3,7 +3,7 @@ import discord
 from discord.ext import commands
 from dotenv import load_dotenv
 from utils.language_handler import load_language, user_languages
-from modules import guide_bot, agend_bot
+from modules import guide_bot, agend_bot, radio_bot
 import asyncio
 import nest_asyncio
 nest_asyncio.apply()
@@ -92,6 +92,7 @@ async def on_command_error(ctx, error):
 async def load_modules():
     await guide_bot.setup(bot)
     await agend_bot.setup(bot)
+    await radio_bot.setup(bot)
     try:
         await bot.start(TOKEN)
     except KeyboardInterrupt:

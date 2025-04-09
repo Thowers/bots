@@ -2,3 +2,4 @@ discord.py==2.5.2
 python-dotenv==1.1.0
 nest_asyncio==1.6.0
 pymongo==4.11.3
+spotipy==2.25.1
