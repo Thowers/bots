@@ -142,7 +142,7 @@ class AgendBot(commands.Cog):
         now = datetime.now()
         await ctx.send(f"🕒 Hora actual del bot: {now.strftime('%d/%m/%Y %H:%M:%S')}")
 
-    @tasks.loop(minutes=10)
+    @tasks.loop(minutes=2)
     async def cleanup_old_events(self):
         now = datetime.now()
         result = self.events_collection.delete_many({"datetime": {"$lt": now}})
