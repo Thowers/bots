@@ -1,8 +1,10 @@
 {
   "welcome": "Welcome to the server! React with 🇬🇧 for English or 🇨🇴 for Spanish. Then enter the following command !guide",
   "how_to_use": "Here's how to use Discord: ...",
-  "guia_comandos": "These are the available commands: `!register`, `!channels`, `!voice`, etc.",
+  "guia_comandos": "These are the available commands: `!comandos`,`!register`,`!channels`,`!add_event`,`!list_events`",
   "registrarse": "To register, go to https://discord.com/register and follow the steps.",
   "canales": "Channels are spaces where you can talk via text or voice...",
-  "nuevo_comando": "This is the new command in English."
+  "evento_agregado": "Event added",
+  "sin_eventos": "You have no scheduled events.",
+  "tus_eventos": "**Your events:**\n"
 }

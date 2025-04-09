@@ -1,8 +1,10 @@
 {
-  "welcome": "¡Bienvenido al servidor! Reacciona con 🇬🇧 para inglés o 🇨🇴 para español. Luego ingresa el siguiente comando !guide",
+  "welcome": "¡Bienvenido al servidor! Reacciona con 🇬🇧 para inglés o 🇨🇴 para español. Luego ingresa el siguiente comando !guide o !comandos para ver los comandos\nWelcome to the server! React with 🇬🇧 for English or 🇨🇴 for Spanish. Then enter the following command !guide or !comandos",
   "how_to_use": "Aquí está cómo usar Discord: ...",
-  "guia_comandos": "Estos son los comandos disponibles: `!registrarse`, `!canales`, `!voz`, etc.",
+  "guia_comandos": "Estos son los comandos disponibles:`!comandos`,`!register`,`!channels`,`!add_event`,`!list_events`,",
   "registrarse": "Para registrarte, ve a https://discord.com/register y sigue los pasos.",
   "canales": "Los canales son espacios donde puedes hablar por texto o voz...",
-  "nuevo_comando": "Este es el nuevo comando en español."
+  "evento_agregado": "Evento agregado",
+  "sin_eventos": "No tienes eventos agendados.",
+  "tus_eventos": "**Tujevento:**\n"
 }
