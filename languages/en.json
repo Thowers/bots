@@ -1,10 +1,11 @@
 {
   "welcome": "Welcome to the server! React with 🇬🇧 for English or 🇨🇴 for Spanish. Then enter the following command !guide",
   "how_to_use": "Here's how to use Discord: ...",
-  "guia_comandos": "These are the available commands: `!comandos`,`!register`,`!channels`,`!add_event`,`!list_events`",
-  "registrarse": "To register, go to https://discord.com/register and follow the steps.",
-  "canales": "Channels are spaces where you can talk via text or voice...",
-  "evento_agregado": "Event added",
-  "sin_eventos": "You have no scheduled events.",
-  "tus_eventos": "**Your events:**\n"
+  "commands_guide": "These are the available commands: `!comandos`,`!register`,`!channels`,`!add_event`,`!list_events`,`!histories`",
+  "register": "To register, go to https://discord.com/register and follow the steps.",
+  "channels": "Channels are spaces where you can talk via text or voice...",
+  "added_event": "Event added",
+  "without_events": "You have no scheduled events.",
+  "your_events": "**Your events:**\n",
+  "histories": "In the histories channel, type the following command `!create_text` then give a small idea of what you want"
 }

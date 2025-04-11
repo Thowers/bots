@@ -32,7 +32,7 @@ class GuideCommands(commands.Cog):
             return
         lang = user_languages.get(ctx.author.id, 'en')
         data = load_language(lang)
-        await ctx.send(data.get("guia_comandos", "Commands guide not available."))
+        await ctx.send(data.get("commands_guide", "Commands guide not available."))
 
     @commands.command()
     async def register(self, ctx):
@@ -44,7 +44,7 @@ class GuideCommands(commands.Cog):
             return
         lang = user_languages.get(ctx.author.id, 'en')
         data = load_language(lang)
-        await ctx.send(data.get("registrarse", "Registration info not available."))
+        await ctx.send(data.get("register", "Registration info not available."))
 
     @commands.command()
     async def channels(self, ctx):
@@ -56,7 +56,19 @@ class GuideCommands(commands.Cog):
             return
         lang = user_languages.get(ctx.author.id, 'en')
         data = load_language(lang)
-        await ctx.send(data.get("canales", "Channels info not available."))
+        await ctx.send(data.get("channels", "Channels info not available."))
+
+    @commands.command()
+    async def histories(self, ctx):
+        if not dm_only(ctx):
+            try:
+                await ctx.author.send("Please use commands in DM.")
+            except discord.Forbidden:
+                pass
+            return
+        lang = user_languages.get(ctx.author.id, 'en')
+        data = load_language(lang)
+        await ctx.send(data.get("histories", "Channels info not available."))
 
 async def setup(bot):
     await bot.add_cog(GuideCommands(bot))

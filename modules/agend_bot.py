@@ -75,7 +75,7 @@ class AgendBot(commands.Cog):
             print(f"✅ Evento guardado: {result.inserted_id}")
             print(f"🔔 Se enviará recordatorio a las: {reminder_time.strftime('%d/%m/%Y %H:%M')}")
 
-            response = data.get("evento_agregado", "Event added") + f": {dt.strftime('%d/%m/%Y %H:%M')} - {description}\n"
+            response = data.get("added_event", "Event added") + f": {dt.strftime('%d/%m/%Y %H:%M')} - {description}\n"
             response += data.get("recordatorio_programado", "Reminder will be sent at") + f" {reminder_time.strftime('%d/%m/%Y %H:%M')}"
             await ctx.send(response)
 
@@ -96,10 +96,10 @@ class AgendBot(commands.Cog):
         events = list(events_cursor)
 
         if not events:
-            await ctx.send(data.get("sin_eventos", "You have no scheduled events."))
+            await ctx.send(data.get("without_events", "You have no scheduled events."))
             return
 
-        response = data.get("tus_eventos", "**Your events:**\n")
+        response = data.get("your_events", "**Your events:**\n")
         for event in events:
             dt = event["datetime"]
             description = event["description"]

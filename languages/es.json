@@ -1,10 +1,11 @@
 {
   "welcome": "¡Bienvenido al servidor! Reacciona con 🇬🇧 para inglés o 🇨🇴 para español. Luego ingresa el siguiente comando !guide o !comandos para ver los comandos\nWelcome to the server! React with 🇬🇧 for English or 🇨🇴 for Spanish. Then enter the following command !guide or !comandos",
   "how_to_use": "Aquí está cómo usar Discord: ...",
-  "guia_comandos": "Estos son los comandos disponibles:`!comandos`,`!register`,`!channels`,`!add_event`,`!list_events`,",
-  "registrarse": "Para registrarte, ve a https://discord.com/register y sigue los pasos.",
-  "canales": "Los canales son espacios donde puedes hablar por texto o voz...",
-  "evento_agregado": "Evento agregado",
-  "sin_eventos": "No tienes eventos agendados.",
-  "tus_eventos": "**Tujevento:**\n"
+  "commands_guide": "Estos son los comandos disponibles:`!comandos`,`!register`,`!channels`,`!add_event`,`!list_events`,`!histories`",
+  "register": "Para registrarte, ve a https://discord.com/register y sigue los pasos.",
+  "channels": "Los canales son espacios donde puedes hablar por texto o voz...",
+  "added_event": "Evento agregado",
+  "without_events": "No tienes eventos agendados.",
+  "your_events": "**Tujevento:**\n",
+  "histories": "En el canal de histories, coloca el siguiente comando `!create_text` luego dale una pequeña idea de que quieres (SOLO FUNCIONA EN INGLES)"
 }
