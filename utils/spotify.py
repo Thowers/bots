@@ -11,13 +11,11 @@ client_credentials_manager = SpotifyClientCredentials(
 )
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
-def get_playlist_by_genre(genre):
-    results = sp.search(q=f"{genre} playlist", type="playlist", limit=1)
-    if results["playlists"]["items"]:
-        return results["playlists"]["items"][0]["external_urls"]["spotify"]
-    return None
-
 def get_tracks_by_artist(artist):
     results = sp.search(q=f"{artist}", type="track", limit=5)
-    tracks = [track["external_urls"]["spotify"] for track in results["tracks"]["items"]]
+    tracks = []
+    for item in results["tracks"]["items"]:
+        track_name = item["name"]
+        artist_name = item["artists"][0]["name"]
+        tracks.append({"name": track_name, "artist": artist_name})
     return tracks
