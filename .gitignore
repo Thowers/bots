@@ -1,3 +1,4 @@
 .env
 .cache
-discord_bot_env
+discord_bot_env/
+__pycache__/
