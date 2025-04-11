@@ -4,5 +4,5 @@ nest_asyncio==1.6.0
 pymongo==4.11.3
 spotipy==2.25.1
 transformers==4.50.3
-torch=2.6.0
+torch==2.6.0
 
